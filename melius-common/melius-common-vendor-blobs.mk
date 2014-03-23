@@ -67,8 +67,8 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/melius-common/proprietary/lib/libqdp.so:system/lib/libqdp.so \
     vendor/samsung/melius-common/proprietary/lib/libreference-ril.so:system/lib/libreference-ril.so \
     vendor/samsung/melius-common/proprietary/lib/libril-qcril-hook-oem.so:system/lib/libril-qcril-hook-oem.so \
-	vendor/samsung/melius-common/proprietary/lib/libril-qc-qmi-1.so:system/lib/libril-qc-qmi-1.so \
-	vendor/samsung/melius-common/proprietary/lib/libril.so:system/lib/libril.so \
+    vendor/samsung/melius-common/proprietary/lib/libril-qc-qmi-1.so:system/lib/libril-qc-qmi-1.so \
+    vendor/samsung/melius-common/proprietary/lib/libril.so:system/lib/libril.so \
     vendor/samsung/melius-common/proprietary/lib/libsecril-client.so:system/lib/libsecril-client.so \
     vendor/samsung/melius-common/proprietary/vendor/lib/libidl.so:system/vendor/lib/libidl.so \
     vendor/samsung/melius-common/proprietary/vendor/lib/libqcci_legacy.so:system/vendor/lib/libqcci_legacy.so \
@@ -136,7 +136,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/melius-common/proprietary/lib/libQSEEComAPI.so:system/lib/libQSEEComAPI.so \
     vendor/samsung/melius-common/proprietary/lib/libWVStreamControlAPI_L1.so:system/lib/libWVStreamControlAPI_L1.so \
     vendor/samsung/melius-common/proprietary/lib/libwvm.so:system/lib/libwvm.so \
-	vendor/samsung/melius-common/proprietary/vendor/firmware/bcm2079xB4_firmware.ncd:system/vendor/firmware/bcm2079xB4_firmware.ncd \
+    vendor/samsung/melius-common/proprietary/vendor/firmware/bcm2079xB4_firmware.ncd:system/vendor/firmware/bcm2079xB4_firmware.ncd \
     vendor/samsung/melius-common/proprietary/vendor/firmware/bcm2079xB4_pre_firmware.ncd:system/vendor/firmware/bcm2079xB4_pre_firmware.ncd \
     vendor/samsung/melius-common/proprietary/vendor/firmware/bcm2079xB5_firmware.ncd:system/vendor/firmware/bcm2079xB5_firmware.ncd \
     vendor/samsung/melius-common/proprietary/vendor/firmware/bcm2079xB5_pre_firmware.ncd:system/vendor/firmware/bcm2079xB5_pre_firmware.ncd
