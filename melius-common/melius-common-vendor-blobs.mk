@@ -20,8 +20,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/melius-common/proprietary/bin/hci_qcomm_init:system/bin/hci_qcomm_init \
     vendor/samsung/melius-common/proprietary/bin/mpdecision:system/bin/mpdecision \
     vendor/samsung/melius-common/proprietary/bin/thermald:system/bin/thermald \
-    vendor/samsung/melius-common/proprietary/vendor/firmware/bcm2079xB4_firmware.ncd:system/vendor/firmware/bcm2079xB4_firmware.ncd \
-    vendor/samsung/melius-common/proprietary/vendor/firmware/bcm2079xB4_pre_firmware.ncd:system/vendor/firmware/bcm2079xB4_pre_firmware.ncd \
     vendor/samsung/melius-common/proprietary/lib/libacdbloader.so:system/lib/libacdbloader.so \
     vendor/samsung/melius-common/proprietary/lib/libaudcal.so:system/lib/libaudcal.so \
     vendor/samsung/melius-common/proprietary/lib/libDivxDrm.so:system/lib/libDivxDrm.so \
@@ -29,9 +27,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/melius-common/proprietary/lib/libSHIMDivxDrm.so:system/lib/libSHIMDivxDrm.so \
     vendor/samsung/melius-common/proprietary/lib/libmmparser.so:system/lib/libmmparser.so \
     vendor/samsung/melius-common/proprietary/lib/libmmosal.so:system/lib/libmmosal.so \
-    vendor/samsung/melius-common/proprietary/etc/firmware/a300_pfp.fw:system/etc/firmware/a300_pfp.fw \
-    vendor/samsung/melius-common/proprietary/etc/firmware/a300_pm4.fw:system/etc/firmware/a300_pm4.fw \
-    vendor/samsung/melius-common/proprietary/etc/firmware/vidc_1080p.fw:system/etc/firmware/vidc_1080p.fw \
     vendor/samsung/melius-common/proprietary/lib/egl/eglsubAndroid.so:system/lib/egl/eglsubAndroid.so \
     vendor/samsung/melius-common/proprietary/lib/egl/libEGL_adreno200.so:system/lib/egl/libEGL_adreno200.so \
     vendor/samsung/melius-common/proprietary/lib/egl/libGLESv1_CM_adreno200.so:system/lib/egl/libGLESv1_CM_adreno200.so \
