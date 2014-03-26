@@ -68,7 +68,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/melius-common/proprietary/lib/libril-qc-qmi-1.so:system/lib/libril-qc-qmi-1.so \
     vendor/samsung/melius-common/proprietary/lib/libril.so:system/lib/libril.so \
     vendor/samsung/melius-common/proprietary/lib/libsecril-client.so:system/lib/libsecril-client.so \
-    vendor/samsung/serrano-common/proprietary/bin/time_daemon:system/bin/time_daemon \
+    vendor/samsung/melius-common/proprietary/bin/time_daemon:system/bin/time_daemon \
     vendor/samsung/melius-common/proprietary/lib/libtime_genoff.so:system/lib/libtime_genoff.so \
     vendor/samsung/melius-common/proprietary/vendor/lib/libidl.so:system/vendor/lib/libidl.so \
     vendor/samsung/melius-common/proprietary/vendor/lib/libqcci_legacy.so:system/vendor/lib/libqcci_legacy.so \
