@@ -70,8 +70,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/melius-common/proprietary/bin/time_daemon:system/bin/time_daemon \
     vendor/samsung/melius-common/proprietary/lib/libtime_genoff.so:system/lib/libtime_genoff.so \
     vendor/samsung/melius-common/proprietary/bin/irsc_util:system/bin/irsc_util \
-    vendor/samsung/melius-common/proprietary/lib/hw/gps.default.so:system/lib/hw/gps.default.so \
-    vendor/samsung/melius-common/proprietary/lib/libgps.utils.so:system/lib/libgps.utils.so \
     vendor/samsung/melius-common/proprietary/vendor/lib/libidl.so:system/vendor/lib/libidl.so \
     vendor/samsung/melius-common/proprietary/vendor/lib/libqcci_legacy.so:system/vendor/lib/libqcci_legacy.so \
     vendor/samsung/melius-common/proprietary/vendor/lib/libqmi.so:system/vendor/lib/libqmi.so \
@@ -82,8 +80,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/melius-common/proprietary/vendor/lib/libqmi_encdec.so:system/vendor/lib/libqmi_encdec.so \
     vendor/samsung/melius-common/proprietary/vendor/lib/libqmiservices.so:system/vendor/lib/libqmiservices.so \
     vendor/samsung/melius-common/proprietary/lib/libloc_api_v02.so:system/lib/libloc_api_v02.so \
-    vendor/samsung/melius-common/proprietary/lib/libloc_core.so:system/lib/libloc_core.so \
-    vendor/samsung/melius-common/proprietary/lib/libloc_eng.so:system/lib/libloc_eng.so \
     vendor/samsung/melius-common/proprietary/vendor/lib/libgeofence.so:system/vendor/lib/libgeofence.so \
     vendor/samsung/melius-common/proprietary/vendor/lib/libizat_core.so:system/vendor/lib/libizat_core.so \
     vendor/samsung/melius-common/proprietary/vendor/lib/liblbs_core.so:system/vendor/lib/liblbs_core.so \
