@@ -34,8 +34,8 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/melius-common/proprietary/vendor/lib/egl/eglsubAndroid.so:system/vendor/lib/egl/eglsubAndroid.so \
     vendor/samsung/melius-common/proprietary/vendor/lib/egl/libEGL_adreno.so:system/vendor/lib/egl/libEGL_adreno.so \
     vendor/samsung/melius-common/proprietary/vendor/lib/egl/libGLESv1_CM_adreno.so:system/vendor/lib/egl/libGLESv1_CM_adreno.so \
-    vendor/samsung/melius-common/proprietary/vendor/lib/egl/libGLESv2S3D_adreno.so:system/vendor/lib/egl/libGLESv2S3D_adreno.so \
     vendor/samsung/melius-common/proprietary/vendor/lib/egl/libGLESv2_adreno.so:system/vendor/lib/egl/libGLESv2_adreno.so \
+    vendor/samsung/melius-common/proprietary/vendor/lib/egl/libGLESv2S3D_adreno.so:system/vendor/lib/egl/libGLESv2S3D_adreno.so \
     vendor/samsung/melius-common/proprietary/vendor/lib/egl/libq3dtools_adreno.so:system/vendor/lib/egl/libq3dtools_adreno.so \
     vendor/samsung/melius-common/proprietary/vendor/lib/libadreno_utils.so:system/vendor/lib/libadreno_utils.so \
     vendor/samsung/melius-common/proprietary/vendor/lib/libC2D2.so:system/vendor/lib/libC2D2.so \
@@ -48,28 +48,21 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/melius-common/proprietary/lib/libI420colorconvert.so:system/lib/libI420colorconvert.so \
     vendor/samsung/melius-common/proprietary/lib/libmm-color-convertor.so:system/lib/libmm-color-convertor.so \
     vendor/samsung/melius-common/proprietary/bin/ds_fmc_appd:system/bin/ds_fmc_appd \
-    vendor/samsung/melius-common/proprietary/bin/netmgrd:system/bin/netmgrd \
-    vendor/samsung/melius-common/proprietary/bin/sec-ril:system/bin/sec-ril \
     vendor/samsung/melius-common/proprietary/bin/qmuxd:system/bin/qmuxd \
     vendor/samsung/melius-common/proprietary/bin/rild:system/bin/rild \
     vendor/samsung/melius-common/proprietary/bin/rmt_storage:system/bin/rmt_storage \
     vendor/samsung/melius-common/proprietary/lib/libcordon.so:system/lib/libcordon.so \
-    vendor/samsung/melius-common/proprietary/lib/libdiag.so:system/lib/libdiag.so \
-    vendor/samsung/melius-common/proprietary/lib/libdsutils.so:system/lib/libdsutils.so \
-    vendor/samsung/melius-common/proprietary/lib/libdsi_netctrl.so:system/lib/libdsi_netctrl.so \
     vendor/samsung/melius-common/proprietary/lib/libfactoryutil.so:system/lib/libfactoryutil.so \
-    vendor/samsung/melius-common/proprietary/lib/libnetmgr.so:system/lib/libnetmgr.so \
     vendor/samsung/melius-common/proprietary/lib/libomission_avoidance.so:system/lib/libomission_avoidance.so \
-    vendor/samsung/melius-common/proprietary/lib/libqdi.so:system/lib/libqdi.so \
-    vendor/samsung/melius-common/proprietary/lib/libqdp.so:system/lib/libqdp.so \
     vendor/samsung/melius-common/proprietary/lib/libreference-ril.so:system/lib/libreference-ril.so \
-    vendor/samsung/melius-common/proprietary/lib/libril-qcril-hook-oem.so:system/lib/libril-qcril-hook-oem.so \
-    vendor/samsung/melius-common/proprietary/lib/libril-qc-qmi-1.so:system/lib/libril-qc-qmi-1.so \
     vendor/samsung/melius-common/proprietary/lib/libril.so:system/lib/libril.so \
+    vendor/samsung/melius-common/proprietary/lib/libsec-ril.so:system/lib/libsec-ril.so \
+    vendor/samsung/melius-common/proprietary/lib/libsecnativefeature.so:system/lib/libsecnativefeature.so \
     vendor/samsung/melius-common/proprietary/lib/libsecril-client.so:system/lib/libsecril-client.so \
-    vendor/samsung/melius-common/proprietary/bin/time_daemon:system/bin/time_daemon \
-    vendor/samsung/melius-common/proprietary/lib/libtime_genoff.so:system/lib/libtime_genoff.so \
-    vendor/samsung/melius-common/proprietary/bin/irsc_util:system/bin/irsc_util \
+    vendor/samsung/melius-common/proprietary/lib/libxml.so:system/lib/libxml.so \
+    vendor/samsung/melius-common/proprietary/vendor/lib/libconfigdb.so:system/vendor/lib/libconfigdb.so \
+    vendor/samsung/melius-common/proprietary/vendor/lib/libdiag.so:system/vendor/lib/libdiag.so \
+    vendor/samsung/melius-common/proprietary/vendor/lib/libdsutils.so:system/vendor/lib/libdsutils.so \
     vendor/samsung/melius-common/proprietary/vendor/lib/libidl.so:system/vendor/lib/libidl.so \
     vendor/samsung/melius-common/proprietary/vendor/lib/libqcci_legacy.so:system/vendor/lib/libqcci_legacy.so \
     vendor/samsung/melius-common/proprietary/vendor/lib/libqmi.so:system/vendor/lib/libqmi.so \
@@ -79,7 +72,15 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/melius-common/proprietary/vendor/lib/libqmi_csi.so:system/vendor/lib/libqmi_csi.so \
     vendor/samsung/melius-common/proprietary/vendor/lib/libqmi_encdec.so:system/vendor/lib/libqmi_encdec.so \
     vendor/samsung/melius-common/proprietary/vendor/lib/libqmiservices.so:system/vendor/lib/libqmiservices.so \
+    vendor/samsung/melius-common/proprietary/vendor/lib/libril-qcril-hook-oem.so:system/vendor/lib/libril-qcril-hook-oem.so \
+    vendor/samsung/melius-common/proprietary/bin/time_daemon:system/bin/time_daemon \
+    vendor/samsung/melius-common/proprietary/lib/libtime_genoff.so:system/lib/libtime_genoff.so \
+    vendor/samsung/melius-common/proprietary/bin/irsc_util:system/bin/irsc_util \
+    vendor/samsung/melius-common/proprietary/lib/hw/gps.default.so:system/lib/hw/gps.default.so \
+    vendor/samsung/melius-common/proprietary/lib/libgps.utils.so:system/lib/libgps.utils.so \
     vendor/samsung/melius-common/proprietary/lib/libloc_api_v02.so:system/lib/libloc_api_v02.so \
+    vendor/samsung/melius-common/proprietary/lib/libloc_core.so:system/lib/libloc_core.so \
+    vendor/samsung/melius-common/proprietary/lib/libloc_eng.so:system/lib/libloc_eng.so \
     vendor/samsung/melius-common/proprietary/vendor/lib/libgeofence.so:system/vendor/lib/libgeofence.so \
     vendor/samsung/melius-common/proprietary/vendor/lib/libizat_core.so:system/vendor/lib/libizat_core.so \
     vendor/samsung/melius-common/proprietary/vendor/lib/liblbs_core.so:system/vendor/lib/liblbs_core.so \
@@ -93,21 +94,21 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/melius-common/proprietary/lib/libchromatix_imx175_default_video.so:system/lib/libchromatix_imx175_default_video.so \
     vendor/samsung/melius-common/proprietary/lib/libchromatix_imx175_lls.so:system/lib/libchromatix_imx175_lls.so \
     vendor/samsung/melius-common/proprietary/lib/libchromatix_imx175_preview.so:system/lib/libchromatix_imx175_preview.so \
+    vendor/samsung/melius-common/proprietary/lib/libchromatix_imx175_zsl.so:system/lib/libchromatix_imx175_zsl.so \
     vendor/samsung/melius-common/proprietary/lib/libchromatix_imx175_zsl_drama.so:system/lib/libchromatix_imx175_zsl_drama.so \
     vendor/samsung/melius-common/proprietary/lib/libchromatix_imx175_zsl_panorama.so:system/lib/libchromatix_imx175_zsl_panorama.so \
-    vendor/samsung/melius-common/proprietary/lib/libchromatix_imx175_zsl.so:system/lib/libchromatix_imx175_zsl.so \
     vendor/samsung/melius-common/proprietary/lib/libchromatix_s5k3h5xa_antishake.so:system/lib/libchromatix_s5k3h5xa_antishake.so \
     vendor/samsung/melius-common/proprietary/lib/libchromatix_s5k3h5xa_default_video.so:system/lib/libchromatix_s5k3h5xa_default_video.so \
     vendor/samsung/melius-common/proprietary/lib/libchromatix_s5k3h5xa_lls.so:system/lib/libchromatix_s5k3h5xa_lls.so \
     vendor/samsung/melius-common/proprietary/lib/libchromatix_s5k3h5xa_preview.so:system/lib/libchromatix_s5k3h5xa_preview.so \
+    vendor/samsung/melius-common/proprietary/lib/libchromatix_s5k3h5xa_zsl.so:system/lib/libchromatix_s5k3h5xa_zsl.so \
     vendor/samsung/melius-common/proprietary/lib/libchromatix_s5k3h5xa_zsl_drama.so:system/lib/libchromatix_s5k3h5xa_zsl_drama.so \
     vendor/samsung/melius-common/proprietary/lib/libchromatix_s5k3h5xa_zsl_panorama.so:system/lib/libchromatix_s5k3h5xa_zsl_panorama.so \
-    vendor/samsung/melius-common/proprietary/lib/libchromatix_s5k3h5xa_zsl.so:system/lib/libchromatix_s5k3h5xa_zsl.so \
     vendor/samsung/melius-common/proprietary/lib/libchromatix_s5k6a3yx_default_video.so:system/lib/libchromatix_s5k6a3yx_default_video.so \
     vendor/samsung/melius-common/proprietary/lib/libchromatix_s5k6a3yx_preview.so:system/lib/libchromatix_s5k6a3yx_preview.so \
     vendor/samsung/melius-common/proprietary/lib/libchromatix_s5k6a3yx_smart_stay.so:system/lib/libchromatix_s5k6a3yx_smart_stay.so \
-    vendor/samsung/melius-common/proprietary/lib/libchromatix_s5k6a3yx_vt_hd.so:system/lib/libchromatix_s5k6a3yx_vt_hd.so \
     vendor/samsung/melius-common/proprietary/lib/libchromatix_s5k6a3yx_vt.so:system/lib/libchromatix_s5k6a3yx_vt.so \
+    vendor/samsung/melius-common/proprietary/lib/libchromatix_s5k6a3yx_vt_hd.so:system/lib/libchromatix_s5k6a3yx_vt_hd.so \
     vendor/samsung/melius-common/proprietary/lib/libgemini.so:system/lib/libgemini.so \
     vendor/samsung/melius-common/proprietary/lib/libimage-jpeg-dec-omx-comp.so:system/lib/libimage-jpeg-dec-omx-comp.so \
     vendor/samsung/melius-common/proprietary/lib/libimage-jpeg-enc-omx-comp.so:system/lib/libimage-jpeg-enc-omx-comp.so \
@@ -127,7 +128,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/melius-common/proprietary/lib/libmmmpod.so:system/lib/libmmmpod.so \
     vendor/samsung/melius-common/proprietary/lib/libmmstillomx.so:system/lib/libmmstillomx.so \
     vendor/samsung/melius-common/proprietary/lib/liboemcamera.so:system/lib/liboemcamera.so \
-    vendor/samsung/melius-common/proprietary/lib/libsecnativefeature.so:system/lib/libsecnativefeature.so \
     vendor/samsung/melius-common/proprietary/lib/libsensor1.so:system/lib/libsensor1.so \
     vendor/samsung/melius-common/proprietary/lib/libTsAccm.so:system/lib/libTsAccm.so \
     vendor/samsung/melius-common/proprietary/lib/libTsAwb.so:system/lib/libTsAwb.so \
@@ -140,10 +140,10 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/melius-common/proprietary/lib/libdrmtime.so:system/lib/libdrmtime.so \
     vendor/samsung/melius-common/proprietary/lib/libhdcp2.so:system/lib/libhdcp2.so \
     vendor/samsung/melius-common/proprietary/lib/libQSEEComAPI.so:system/lib/libQSEEComAPI.so \
+    vendor/samsung/melius-common/proprietary/lib/libwvm.so:system/lib/libwvm.so \
     vendor/samsung/melius-common/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so \
     vendor/samsung/melius-common/proprietary/vendor/lib/libwvdrm_L1.so:system/vendor/lib/libwvdrm_L1.so \
     vendor/samsung/melius-common/proprietary/vendor/lib/libWVStreamControlAPI_L1.so:system/vendor/lib/libWVStreamControlAPI_L1.so \
-    vendor/samsung/melius-common/proprietary/lib/libwvm.so:system/lib/libwvm.so \
     vendor/samsung/melius-common/proprietary/lib/libOmxAacDec.so:system/lib/libOmxAacDec.so \
     vendor/samsung/melius-common/proprietary/lib/libOmxAmrwbplusDec.so:system/lib/libOmxAmrwbplusDec.so \
     vendor/samsung/melius-common/proprietary/lib/libOmxEvrcDec.so:system/lib/libOmxEvrcDec.so \
@@ -152,4 +152,3 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/melius-common/proprietary/lib/libOmxWmaDec.so:system/lib/libOmxWmaDec.so \
     vendor/samsung/melius-common/proprietary/vendor/firmware/bcm2079xB4_firmware.ncd:system/vendor/firmware/bcm2079xB4_firmware.ncd \
     vendor/samsung/melius-common/proprietary/vendor/firmware/bcm2079xB4_pre_firmware.ncd:system/vendor/firmware/bcm2079xB4_pre_firmware.ncd
-	
