@@ -75,7 +75,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/melius-common/proprietary/vendor/lib/libqmiservices.so:system/vendor/lib/libqmiservices.so \
     vendor/samsung/melius-common/proprietary/vendor/lib/libril-qcril-hook-oem.so:system/vendor/lib/libril-qcril-hook-oem.so \
     vendor/samsung/melius-common/proprietary/bin/time_daemon:system/bin/time_daemon \
-    vendor/samsung/melius-common/proprietary/lib/libtime_genoff.so:system/lib/libtime_genoff.so \
     vendor/samsung/melius-common/proprietary/bin/irsc_util:system/bin/irsc_util \
     vendor/samsung/melius-common/proprietary/lib/hw/gps.default.so:system/lib/hw/gps.default.so \
     vendor/samsung/melius-common/proprietary/lib/libgps.utils.so:system/lib/libgps.utils.so \
