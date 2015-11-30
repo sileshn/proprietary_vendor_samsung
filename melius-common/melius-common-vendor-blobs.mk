@@ -23,11 +23,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/melius-common/proprietary/bin/thermald:system/bin/thermald \
     vendor/samsung/melius-common/proprietary/lib/libacdbloader.so:system/lib/libacdbloader.so \
     vendor/samsung/melius-common/proprietary/lib/libaudcal.so:system/lib/libaudcal.so \
-    vendor/samsung/melius-common/proprietary/lib/libDivxDrm.so:system/lib/libDivxDrm.so \
-    vendor/samsung/melius-common/proprietary/lib/libExtendedExtractor.so:system/lib/libExtendedExtractor.so \
-    vendor/samsung/melius-common/proprietary/lib/libSHIMDivxDrm.so:system/lib/libSHIMDivxDrm.so \
-    vendor/samsung/melius-common/proprietary/lib/libmmparser.so:system/lib/libmmparser.so \
-    vendor/samsung/melius-common/proprietary/lib/libmmosal.so:system/lib/libmmosal.so \
     vendor/samsung/melius-common/proprietary/etc/firmware/a300_pfp.fw:system/etc/firmware/a300_pfp.fw \
     vendor/samsung/melius-common/proprietary/etc/firmware/a300_pm4.fw:system/etc/firmware/a300_pm4.fw \
     vendor/samsung/melius-common/proprietary/etc/firmware/vidc_1080p.fw:system/etc/firmware/vidc_1080p.fw \
