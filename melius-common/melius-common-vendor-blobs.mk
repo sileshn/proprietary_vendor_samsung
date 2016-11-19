@@ -55,7 +55,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/melius-common/proprietary/lib/libril.so:system/lib/libril.so \
     vendor/samsung/melius-common/proprietary/lib/libsec-ril.so:system/lib/libsec-ril.so \
     vendor/samsung/melius-common/proprietary/lib/libsecnativefeature.so:system/lib/libsecnativefeature.so \
-    vendor/samsung/melius-common/proprietary/lib/libsecril-client.so:system/lib/libsecril-client.so \
     vendor/samsung/melius-common/proprietary/lib/libxml.so:system/lib/libxml.so \
     vendor/samsung/melius-common/proprietary/vendor/lib/libconfigdb.so:system/vendor/lib/libconfigdb.so \
     vendor/samsung/melius-common/proprietary/vendor/lib/libdiag.so:system/vendor/lib/libdiag.so \
