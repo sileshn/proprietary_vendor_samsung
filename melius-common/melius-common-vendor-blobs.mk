@@ -43,15 +43,11 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/melius-common/proprietary/vendor/lib/librs_adreno_sha1.so:system/vendor/lib/librs_adreno_sha1.so \
     vendor/samsung/melius-common/proprietary/vendor/lib/libRSDriver_adreno.so:system/vendor/lib/libRSDriver_adreno.so \
     vendor/samsung/melius-common/proprietary/vendor/lib/libsc-a3xx.so:system/vendor/lib/libsc-a3xx.so \
-    vendor/samsung/melius-common/proprietary/lib/libI420colorconvert.so:system/lib/libI420colorconvert.so \
-    vendor/samsung/melius-common/proprietary/lib/libmm-color-convertor.so:system/lib/libmm-color-convertor.so \
     vendor/samsung/melius-common/proprietary/bin/qmuxd:system/bin/qmuxd \
     vendor/samsung/melius-common/proprietary/bin/rild:system/bin/rild \
     vendor/samsung/melius-common/proprietary/bin/rmt_storage:system/bin/rmt_storage \
     vendor/samsung/melius-common/proprietary/etc/plmn_se13.bin:system/etc/plmn_se13.bin \
-    vendor/samsung/melius-common/proprietary/lib/libcordon.so:system/lib/libcordon.so \
     vendor/samsung/melius-common/proprietary/lib/libfactoryutil.so:system/lib/libfactoryutil.so \
-    vendor/samsung/melius-common/proprietary/lib/libomission_avoidance.so:system/lib/libomission_avoidance.so \
     vendor/samsung/melius-common/proprietary/lib/libril.so:system/lib/libril.so \
     vendor/samsung/melius-common/proprietary/lib/libsec-ril.so:system/lib/libsec-ril.so \
     vendor/samsung/melius-common/proprietary/lib/libsecnativefeature.so:system/lib/libsecnativefeature.so \
