@@ -48,7 +48,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/melius-common/proprietary/bin/rild:system/bin/rild \
     vendor/samsung/melius-common/proprietary/bin/rmt_storage:system/bin/rmt_storage \
     vendor/samsung/melius-common/proprietary/etc/plmn_se13.bin:system/etc/plmn_se13.bin \
-    vendor/samsung/melius-common/proprietary/lib/libfactoryutil.so:system/lib/libfactoryutil.so \
     vendor/samsung/melius-common/proprietary/lib/libril.so:system/lib/libril.so \
     vendor/samsung/melius-common/proprietary/lib/libsec-ril.so:system/lib/libsec-ril.so \
     vendor/samsung/melius-common/proprietary/lib/libsecnativefeature.so:system/lib/libsecnativefeature.so \
