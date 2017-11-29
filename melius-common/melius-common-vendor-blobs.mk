@@ -28,7 +28,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/melius-common/proprietary/vendor/bin/qmuxd:system/vendor/bin/qmuxd \
     vendor/samsung/melius-common/proprietary/vendor/bin/rmt_storage:system/vendor/bin/rmt_storage \
     vendor/samsung/melius-common/proprietary/vendor/bin/radish:system/vendor/bin/radish \
-    vendor/samsung/melius-common/proprietary/vendor/bin/time_daemon:system/vendor/bin/time_daemon \
     vendor/samsung/melius-common/proprietary/vendor/bin/irsc_util:system/vendor/bin/irsc_util \
     vendor/samsung/melius-common/proprietary/vendor/bin/geomagneticd:system/vendor/bin/geomagneticd \
     vendor/samsung/melius-common/proprietary/vendor/bin/mm-qcamera-daemon:system/vendor/bin/mm-qcamera-daemon \
