@@ -27,7 +27,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/melius-common/proprietary/vendor/bin/mpdecision:system/vendor/bin/mpdecision \
     vendor/samsung/melius-common/proprietary/vendor/bin/thermald:system/vendor/bin/thermald \
     vendor/samsung/melius-common/proprietary/vendor/bin/qmuxd:system/vendor/bin/qmuxd \
-    vendor/samsung/melius-common/proprietary/vendor/bin/rild:system/vendor/bin/rild \
     vendor/samsung/melius-common/proprietary/vendor/bin/rmt_storage:system/vendor/bin/rmt_storage \
     vendor/samsung/melius-common/proprietary/vendor/bin/radish:system/vendor/bin/radish \
     vendor/samsung/melius-common/proprietary/vendor/bin/time_daemon:system/vendor/bin/time_daemon \
@@ -54,9 +53,8 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/melius-common/proprietary/vendor/lib/librs_adreno_sha1.so:system/vendor/lib/librs_adreno_sha1.so \
     vendor/samsung/melius-common/proprietary/vendor/lib/libRSDriver_adreno.so:system/vendor/lib/libRSDriver_adreno.so \
     vendor/samsung/melius-common/proprietary/vendor/lib/libsc-a3xx.so:system/vendor/lib/libsc-a3xx.so \
-    vendor/samsung/melius-common/proprietary/vendor/lib/libril.so:system/vendor/lib/libril.so \
-    vendor/samsung/melius-common/proprietary/vendor/lib/libsec-ril.so:system/vendor/lib/libsec-ril.so \
     vendor/samsung/melius-common/proprietary/vendor/lib/libsecnativefeature.so:system/vendor/lib/libsecnativefeature.so \
+    vendor/samsung/melius-common/proprietary/vendor/lib/libril-qc-qmi-1.so:system/vendor/lib/libril-qc-qmi-1.so \
     vendor/samsung/melius-common/proprietary/vendor/lib/libxml.so:system/vendor/lib/libxml.so \
     vendor/samsung/melius-common/proprietary/vendor/lib/libconfigdb.so:system/vendor/lib/libconfigdb.so \
     vendor/samsung/melius-common/proprietary/vendor/lib/libdiag.so:system/vendor/lib/libdiag.so \
