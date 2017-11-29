@@ -76,8 +76,8 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/melius-common/proprietary/vendor/lib/libizat_core.so:system/vendor/lib/libizat_core.so \
     vendor/samsung/melius-common/proprietary/vendor/lib/liblbs_core.so:system/vendor/lib/liblbs_core.so \
     vendor/samsung/melius-common/proprietary/vendor/lib/liblocationservice.so:system/vendor/lib/liblocationservice.so \
-    vendor/samsung/melius-common/proprietary/vendor/lib/hw/sensors.msm8960.so:system/vendor/lib/hw/sensors.msm8960.so \
-    vendor/samsung/melius-common/proprietary/vendor/lib/hw/camera.msm8960.so:system/vendor/lib/hw/camera.msm8960.so \
+    vendor/samsung/melius-common/proprietary/vendor/lib/sensors.vendor.msm8960.so:system/vendor/lib/sensors.vendor.msm8960.so \
+    vendor/samsung/melius-common/proprietary/vendor/lib/hw/camera.vendor.msm8960.so:system/vendor/lib/hw/camera.vendor.msm8960.so \
     vendor/samsung/melius-common/proprietary/vendor/lib/libadsprpc.so:system/vendor/lib/libadsprpc.so \
     vendor/samsung/melius-common/proprietary/vendor/lib/libchromatix_imx175_antishake.so:system/vendor/lib/libchromatix_imx175_antishake.so \
     vendor/samsung/melius-common/proprietary/vendor/lib/libchromatix_imx175_default_video.so:system/vendor/lib/libchromatix_imx175_default_video.so \
