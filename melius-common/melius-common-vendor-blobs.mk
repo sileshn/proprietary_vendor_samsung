@@ -120,4 +120,5 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/melius-common/proprietary/vendor/lib/libsensor1.so:system/vendor/lib/libsensor1.so \
     vendor/samsung/melius-common/proprietary/vendor/lib/libTsAccm.so:system/vendor/lib/libTsAccm.so \
     vendor/samsung/melius-common/proprietary/vendor/lib/libTsAwb.so:system/vendor/lib/libTsAwb.so \
-    vendor/samsung/melius-common/proprietary/vendor/lib/libqti-perfd-client.so:system/vendor/lib/libqti-perfd-client.so
+    vendor/samsung/melius-common/proprietary/vendor/lib/libqti-perfd-client.so:system/vendor/lib/libqti-perfd-client.so \
+    vendor/samsung/melius-common/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so
