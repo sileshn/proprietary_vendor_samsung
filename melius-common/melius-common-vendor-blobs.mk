@@ -55,7 +55,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/melius-common/proprietary/vendor/bin/netmgrd:system/vendor/bin/netmgrd \
     vendor/samsung/melius-common/proprietary/vendor/lib/libril-qc-qmi-1.so:system/vendor/lib/libril-qc-qmi-1.so \
     vendor/samsung/melius-common/proprietary/vendor/lib/libxml.so:system/vendor/lib/libxml.so \
-    vendor/samsung/melius-common/proprietary/vendor/lib/libconfigdb.so:system/vendor/lib/libconfigdb.so \
     vendor/samsung/melius-common/proprietary/vendor/lib/libdiag.so:system/vendor/lib/libdiag.so \
     vendor/samsung/melius-common/proprietary/vendor/lib/libdsi_netctrl.so:system/vendor/lib/libdsi_netctrl.so \
     vendor/samsung/melius-common/proprietary/vendor/lib/libdsutils.so:system/vendor/lib/libdsutils.so \
