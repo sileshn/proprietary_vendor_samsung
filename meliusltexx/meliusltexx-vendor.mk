@@ -9,5 +9,9 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/meliusltexx/proprietary/vendor/firmware/bcm2079xB4_firmware.ncd:$(TARGET_COPY_OUT_VENDOR)/firmware/bcm2079xB4_firmware.ncd \
     vendor/samsung/meliusltexx/proprietary/vendor/firmware/bcm2079xB4_pre_firmware.ncd:$(TARGET_COPY_OUT_VENDOR)/firmware/bcm2079xB4_pre_firmware.ncd \
     vendor/samsung/meliusltexx/proprietary/vendor/lib/libaudcal.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaudcal.so \
-    vendor/samsung/meliusltexx/proprietary/vendor/lib/libloc_api_v02.so:$(TARGET_COPY_OUT_VENDOR)/lib/libloc_api_v02.so \
+    vendor/samsung/meliusltexx/proprietary/vendor/lib/libFaceDetectCA.so:$(TARGET_COPY_OUT_VENDOR)/lib/libFaceDetectCA.so \
+	vendor/samsung/meliusltexx/proprietary/vendor/lib/libloc_api_v02.so:$(TARGET_COPY_OUT_VENDOR)/lib/libloc_api_v02.so \
+	vendor/samsung/meliusltexx/proprietary/vendor/lib/libmegface.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmegface.so \
+	vendor/samsung/meliusltexx/proprietary/vendor/lib/libMegviiUnlock.so:$(TARGET_COPY_OUT_VENDOR)/lib/libMegviiUnlock.so \
+	vendor/samsung/meliusltexx/proprietary/vendor/lib/libMegviiUnlock-jni-1.2.so:$(TARGET_COPY_OUT_VENDOR)/lib/libMegviiUnlock-jni-1.2.so \
     vendor/samsung/meliusltexx/proprietary/vendor/lib/libril-qc-qmi-1.so:$(TARGET_COPY_OUT_VENDOR)/lib/libril-qc-qmi-1.so
